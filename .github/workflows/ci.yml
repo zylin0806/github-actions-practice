@@ -7,7 +7,7 @@ jobs:
       - name: 检出代码
         uses: actions/checkout@v4
       - name: 设置Python
-        uses: action/setup-python@v5
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       - name: 安装依赖
